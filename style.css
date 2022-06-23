@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    height: 60px;
+}
+
+.nav-link, .logo {
+    margin-right: 30px;
+}
+
+.logo {
+    height: 30px;
+}
+
+.my-container {
+    width: 1000px;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.my-container > *, .my-container > * > * {
+    margin-top: 20px;
+    color: rgb(60, 64, 67);
+}
